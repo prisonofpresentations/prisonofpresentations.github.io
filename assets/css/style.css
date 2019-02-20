@@ -11,7 +11,8 @@ nav {
 .social {
     width: 130px;
     float: right;
-    padding-top: 50px;
+    padding-top: 120px;
+    top: -70px;
 }
 
 .social-item,
