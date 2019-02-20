@@ -1,7 +1,8 @@
+html,
 body,
 nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    overflow-x: none;
+    overflow-x: hidden;
     /* font-family: LucidaGrande; */
 }
 
@@ -164,8 +165,9 @@ iframe {
 footer {
     margin: 0 auto;
     margin-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    shadow
+    width: 100%;
 }
 
 footer img {
@@ -173,24 +175,64 @@ footer img {
     margin: 30px;
 }
 
-footer ul {
+footer ul{
     text-decoration: none;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-footer li {
-    width: 40px;
+footer .f-social li {
+    width: 50px;
+    margin: 10px;
     display: inline-block;
 }
 
-footer ul img {
-    width: 30px;
-    margin: 4px;
+footer ul.f-social img {
+    width: 50px;
+    margin: 0;
     display: inline;
+}
+
+footer .lnks li {
+    display: inline-block;
+}
+
+footer ul.lnks {
+    width: 50px;
+    display: inline;
+}
+
+footer .links{
+    margin: 30px 0;
+}
+
+footer p {
+    font-family: ProximaNova;
+    font-size: 12px;
+    color:rgb(102, 102, 102);
+
+}
+
+footer .lnks li span {
+    text-transform: uppercase;
+    font-family: OxideSolidOT;
+    font-size: 12px;
+    color:rgb(102, 102, 102);
+}
+
+footer .lnks li span:nth-of-type(2) {
+    text-transform: uppercase;
+    font-family: OxideSolidOT;
+    font-size: 10px;
+    margin: 5px;
+    color:rgb(102, 102, 102);
 }
 
 .glitch-img {
     position: absolute;
+}
+footer .ending {
+    margin: 0 auto;
+    width: 70vw;
 }
