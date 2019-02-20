@@ -236,3 +236,10 @@ footer .ending {
     margin: 0 auto;
     width: 70vw;
 }
+
+h6 {
+    display: block;
+    font-family: OxideSolidOT;
+    color:rgb(102, 102, 102);
+    font-size: 12px;
+}
