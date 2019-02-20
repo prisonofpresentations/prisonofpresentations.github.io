@@ -1,6 +1,7 @@
 body,
 nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     /* font-family: LucidaGrande; */
 }
 
@@ -12,7 +13,7 @@ nav {
     width: 130px;
     float: right;
     padding-top: 120px;
-    top: -70px;
+    margin-top: -70px;
 }
 
 .social-item,
@@ -88,10 +89,10 @@ nav {
 }
 
 .page {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Bitter;
     font-size: 18px;
     line-height: 28px;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 strong {
@@ -99,6 +100,8 @@ strong {
     font-size: 20px;
     text-transform: uppercase;
     white-space: none;
+    padding-top: 20px;
+    display: inline-block;
 }
 
 .ambroise {
@@ -107,7 +110,7 @@ strong {
 
 div#title {
     padding-top: 40px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 div#title h1 {
@@ -125,19 +128,69 @@ div#title span {
 
 div#fakeslide {
     background-color: white;
-    width: 100vw;
+    width: calc(100vw - 10px);
     height: 100vh;
     z-index: 100;
 }
 
 div#fakeslide h1{
-    margin-top: 40vh;
+    top: 40vh;
     font-size: 75px;
-    text-align: center
+    text-align: center;
+    width: 100%;
 }
 
 div#fakeslide h3{
-    margin-top: 10vh;
+    margin-top: 60vh;
     font-size: 20px;
-    text-align: center
+    text-align: center;
+    width: 100%;
+}
+
+iframe {
+    width: 537px;
+    height: 300px;
+    margin: 20px 0px;
+}
+
+.page ul{
+    margin: 20px 0;
+}
+
+.page li{
+    margin: 10px 0;
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    shadow
+}
+
+footer img {
+    width: 150px;
+    margin: 30px;
+}
+
+footer ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    width: 40px;
+    display: inline-block;
+}
+
+footer ul img {
+    width: 30px;
+    margin: 4px;
+    display: inline;
+}
+
+.glitch-img {
+    position: absolute;
 }
