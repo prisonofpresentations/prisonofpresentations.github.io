@@ -1,0 +1,18 @@
+@font-face {
+    font-family: LucidaGrande;
+    font-weight: normal;
+    src: url("../fonts/LucidaGrande.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: Ambroise;
+    font-weight: normal;
+    src: url("../fonts/AmbroiseStdFrancois-Demi.otf") format("opentype");
+}
+
+@font-face {
+    font-family: OxideSolidOT;
+    font-weight: normal;
+    src: url("../fonts/OxideSolidOT.otf") format("opentype");
+}
